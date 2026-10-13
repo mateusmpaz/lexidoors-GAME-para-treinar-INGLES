@@ -91,25 +91,6 @@ shaders/wood.gdshader   Material de madeira
 data/questions.json    Banco de 100 perguntas
 ```
 
-## Validação
-
-O protótipo foi executado em Windows com GPU AMD Radeon integrada. Foram realizados testes automatizados de:
-
-- Campanha completa de 100 salas, sem repetição, até a conclusão.
-- Reinício após conclusão ou derrota e preservação do recorde em memória.
-- Movimento, colisões, abertura de portas, continuidade e queda pelo alçapão.
-- Layout das 100 perguntas, dicas e correções em 1280 × 800.
-
-No diretório do projeto, com o Godot disponível no terminal:
-
-```sh
-godot --headless --path . -- --self-test
-godot --headless --path . -- --physics-test
-godot --headless --path . -- --layout-test
-```
-
-O nome do executável do Godot pode variar conforme a instalação. Saída com `PASS` e código de retorno 0 indicam sucesso.
-
 ## Próximos passos
 
 - Integrar o professor com a API do Gemini.
