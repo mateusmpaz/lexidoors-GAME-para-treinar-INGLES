@@ -1,0 +1,18 @@
+# Arquivos locais do Godot
+.godot/
+.user-data/
+user-data/
+*.tmp
+export_credentials.cfg
+
+# Binários e pacotes distribuídos por Releases
+builds/
+Windows/
+*.exe
+*.pck
+*.zip
+
+# Configuração local de futuras integrações
+.env
+.env.*
+!.env.example
